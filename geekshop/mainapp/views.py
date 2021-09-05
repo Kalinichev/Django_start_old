@@ -12,3 +12,9 @@ def products(request):
 
 def contact(request):
     return render(request, 'mainapp/contact.html')
+
+
+def date_and_title(request):
+    return render(request, 'mainapp/date_and_title.html')
+
+
