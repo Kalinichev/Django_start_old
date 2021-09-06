@@ -13,9 +13,9 @@
 </head>
 <body>
 <div class="container">
-    {% block header_class%}
-    <div class="slider">
-    {% endblock %}
+
+    <div class="{% block header_class%}slider{% endblock %}">
+
     {% block header%}
     {% endblock %}
     {% block bottom_of_header %}
@@ -27,6 +27,7 @@
 </div>
 
 {% block footer %}
+{% include 'mainapp/includes/inc_footer.html' %}
 {% endblock %}
 </body>
 </html>

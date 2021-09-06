@@ -12,20 +12,18 @@ links_menu = {
 
 
 def main(request):
-    return render(request, 'mainapp/index.html')
+    return render(request, 'mainapp/index.html', links_menu)
 
 
 def products(request):
-    return render(request, 'mainapp/products.html')
+    return render(request, 'mainapp/products.html', links_menu)
 
 
 def contact(request):
-    return render(request, 'mainapp/contact.html')
+    return render(request, 'mainapp/contact.html', links_menu)
 
 
 def date_and_title(request):
     return render(request, 'mainapp/date_and_title.html')
 
 
-def temp(request):
-    return render(request, 'mainapp/temp.html', links_menu)

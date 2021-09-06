@@ -22,7 +22,6 @@ urlpatterns = [
     path('products/', mainapp.products, name='product'),
     path('contact/', mainapp.contact, name='contact'),
     path('', mainapp.main, name='main'),
-    path('date_and_title', mainapp.date_and_title, name='date_and_title'),
-    path('temp', mainapp.temp, name='temp'),
+    path('date_and_title/', mainapp.date_and_title, name='date_and_title'),
 
 ]
