@@ -1,22 +1,12 @@
 {% block header%}
-<<<<<<< HEAD
-=======
-    {% block header_class%}
-    <div class="slider">
-    {% endblock %}
->>>>>>> origin/Lesson_2
-        <div class="header clearfix">
-            <a href="index.html" class="logo"></a>
-            {% block menu %}
-            {% include 'mainapp/includes/inc_menu.html' %}
-            {% endblock %}
-            <a href="#" class="search"></a>
-            <a href="#" class="basket"></a>
-        </div>
-        {% block bottom_of_header %}
+    <div class="header clearfix">
+        <a href="index.html" class="logo"></a>
+        {% block menu %}
+        {% include 'mainapp/includes/inc_menu.html' %}
         {% endblock %}
-<<<<<<< HEAD
-=======
+        <a href="#" class="search"></a>
+        <a href="#" class="basket"></a>
     </div>
->>>>>>> origin/Lesson_2
+    {% block bottom_of_header %}
+    {% endblock %}
 {% endblock %}
