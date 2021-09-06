@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h3>Date experiments</h3>
+    {% now 'Y' %}
+    <br>
+    <br>
+    {% now 'jS F Y H:i' %}
+    <br>
+    <p>Now {% now 'zS' %} day and {% now 'WS' %} week of {% now 'Y' %} year.
+       Number of days in {% now 'F' %} is {% now 't' %}.
+       It's {% now 'f a' %} now.
+    </p>
+    <p>It is the {% now "jS \o\f F" %}</p>
+    <p>It is {% now "SHORT_DATETIME_FORMAT" %}</p>
+    <h3>Title experiments</h3>
+    <p> {% with 'that should be enough' as text %}
+        {% for i in text.split %}
+        {{ i|title }}
+        {% endfor %}
+        {% endwith %}
+    </p>
+
+</body>
+</html>
