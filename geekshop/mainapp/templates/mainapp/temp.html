@@ -1,13 +1,8 @@
 {% extends 'mainapp/base.html' %}
 {% load static %}
 
-{% block menu %}
-
-{% for i in '3' %}
-
-{% include 'mainapp/includes/inc_menu.html' %}
-{% endfor %}
-
+{% block header %}
+{% include 'mainapp/includes/inc_header.html' %}
 {% endblock %}
 
 {% block bottom_of_header %}
@@ -21,6 +16,7 @@
     <a href="#"></a><a href="#"></a><a href="#"></a>
 </div>
 {% endblock %}
+
 {% block content %}
 <div class="featured">
     <div class="featured-menu">
@@ -50,4 +46,8 @@
         </div>
     </div>
 </div>
+{% endblock %}
+
+{% block footer %}
+{% include 'mainapp/includes/inc_footer.html' %}
 {% endblock %}
