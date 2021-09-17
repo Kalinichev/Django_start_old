@@ -11,7 +11,7 @@ content = {
     'new_content' : {'title': title, 'products': products},
     'links' : [
     {'href': 'main', 'name': 'домой'},
-    {'href': 'product', 'name': 'продукты'},
+    {'href': 'products', 'name': 'продукты'},
     {'href': 'contact', 'name': 'контакты'},
     ]
 }
