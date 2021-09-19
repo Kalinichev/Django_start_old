@@ -3,22 +3,17 @@ from django.shortcuts import render
 # Create your views here.
 from .models import Product
 
-title = 'Главная'
-products = Product.objects.all()
-new_content = {'title': title, 'products': products}
-
 content = {
-    'new_content' : {'title': title, 'products': products},
-    'links' : [
-    {'href': 'main', 'name': 'домой'},
-    {'href': 'products', 'name': 'продукты'},
-    {'href': 'contact', 'name': 'контакты'},
+    'links': [
+        {'href': 'main', 'name': 'домой'},
+        {'href': 'products', 'name': 'продукты'},
+        {'href': 'contact', 'name': 'контакты'},
     ]
 }
 
 
 def main(request):
-
+    content['title_and_prod'] = {'title': 'Главная', 'products': Product.objects.all()}
     return render(request, 'mainapp/index.html', content)
 
 
@@ -32,5 +27,3 @@ def contact(request):
 
 def date_and_title(request):
     return render(request, 'mainapp/date_and_title.html')
-
-

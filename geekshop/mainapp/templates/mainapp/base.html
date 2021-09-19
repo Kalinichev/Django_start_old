@@ -31,7 +31,7 @@
 {% include 'mainapp/includes/inc_footer.html' %}
 {% endblock %}
 
-{% for product in new_content.products %}
+{% for product in title_and_prod.products %}
   <div class="block">
     <a href="#">
       <img src="/media/{{ product.image }}" alt="{{ product.short_desc }}">
