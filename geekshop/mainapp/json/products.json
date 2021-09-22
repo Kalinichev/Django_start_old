@@ -1,0 +1,92 @@
+[
+  {
+    "name": "стул",
+    "category": "дом",
+    "image": "/static/img/products/home_chair.jpeg",
+    "short_desc": "стул для дома",
+    "description": "Очень удобный стул для дома",
+    "price": "5000",
+    "quantity": "100"
+  },
+  {
+    "name": "диван",
+    "category": "дом",
+    "image": "/static/img/products/home_sofa.jpeg",
+    "short_desc": "диван для дома",
+    "description": "Очень удобный диван для дома",
+    "price": "25000",
+    "quantity": "5"
+  },
+  {
+    "name": "лампа",
+    "category": "дом",
+    "image": "/static/img/products/home_lamp.jpeg",
+    "short_desc": "лампа для дома",
+    "description": "Очень удобная лампа для дома",
+    "price": "1000",
+    "quantity": "10"
+  },
+  {
+    "name": "кресло",
+    "category": "офис",
+    "image": "/static/img/products/office_armchair.jpeg",
+    "short_desc": "кресло в офис",
+    "description": "Очень удобное кресло в офис",
+    "price": "25000",
+    "quantity": "20"
+  },
+  {
+    "name": "стол",
+    "category": "офис",
+    "image": "/static/img/products/office_table.jpeg",
+    "short_desc": "офисный стол",
+    "description": "Отличный офисный стол",
+    "price": "20000",
+    "quantity": "10"
+  },
+  {
+    "name": "компьютер",
+    "category": "офис",
+    "image": "/static/img/products/office_computer.jpeg",
+    "short_desc": "компьютер в офис",
+    "description": "Очень производительный ПК",
+    "price": "180000",
+    "quantity": "8"
+  },
+  {
+    "name": "лампа",
+    "category": "модерн",
+    "image": "/static/img/products/modern_lamp.jpeg",
+    "short_desc": "лампа в стиле модерн",
+    "description": "Удивительная лампа",
+    "price": "2000",
+    "quantity": "15"
+  },
+  {
+    "name": "кресло",
+    "category": "модерн",
+    "image": "/static/img/products/modern_armchair.jpeg",
+    "short_desc": "Кресло в стиле модерн",
+    "description": "Удобно и стильно",
+    "price": "40000",
+    "quantity": "2"
+  },
+  {
+    "name": "кресло",
+    "category": "классика",
+    "image": "/static/img/products/classic_armchair.jpeg",
+    "short_desc": "классическое кресло",
+    "description": "Та самая классика",
+    "price": "22000",
+    "quantity": "6"
+  },
+  {
+    "name": "лампа",
+    "category": "классика",
+    "image": "/static/img/products/classic_lamp.jpeg",
+    "short_desc": "классическая лампа",
+    "description": "Приятный дизайн и цвет",
+    "price": "2000",
+    "quantity": "9"
+  }
+]
