@@ -24,6 +24,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', mainapp.main, name='main'),
     path('date_and_title/', mainapp.date_and_title, name='date_and_title'),
+    path('auth/', include('authapp.urls', namespace='auth')),
 
 ]
 
