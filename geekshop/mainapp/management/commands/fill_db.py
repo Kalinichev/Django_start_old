@@ -32,5 +32,3 @@ class Command(BaseCommand):
             product['category'] = _category
             new_product = Product(**product)
             new_product.save()
-
-        super_user = authenticate(username='django', password='geekbrains')
